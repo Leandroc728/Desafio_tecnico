@@ -1,0 +1,27 @@
+.btn-base {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+    width: 72px;
+    border-radius: 12em;
+    border: 2px solid lightgray;
+    transition: .3s linear;
+}
+
+.btn-style1 {
+    background-color: white;
+}
+
+.btn-style1:hover {
+    background-color: lightgray;
+}
+
+.btn-style2 {
+    background-color: rgba(81, 172, 217, 1);
+}
+
+.btn-style2:hover {
+    background-color: rgba(81, 172, 217, .8);
+}
+
